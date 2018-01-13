@@ -1,10 +1,10 @@
 function setSpeciesVariable() {
-  var species = "dog";
+ species = "dog";
 }
 
 function dogInfo(){
   name = "Fido";
-  console.log("Species is " + setSpeciesVariable);
+  console.log("Species is " + species);
   console.log("Name is " + name);
 }
 
